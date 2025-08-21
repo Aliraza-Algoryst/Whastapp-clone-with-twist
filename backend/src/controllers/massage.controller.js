@@ -1,4 +1,4 @@
-import { Massage } from "../models/Massage.model.js";
+import { Massage } from "../models/massage.model.js";
 import { Room } from "../models/room.model.js";
 import { User } from "../models/user.model.js";
 import { getReceiverSocketId, io } from "../socket/sockets.js";
