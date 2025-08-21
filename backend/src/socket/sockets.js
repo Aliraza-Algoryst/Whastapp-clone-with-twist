@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://chatapp-byali.netlify.app"],
     credentials: true,
   })
 );
