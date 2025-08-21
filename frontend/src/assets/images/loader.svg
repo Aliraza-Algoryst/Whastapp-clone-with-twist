@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0000" />
+      <stop offset="16%" stop-color="#FF7F00" />
+      <stop offset="33%" stop-color="#FFFF00" />
+      <stop offset="50%" stop-color="#00FF00" />
+      <stop offset="66%" stop-color="#0000FF" />
+      <stop offset="83%" stop-color="#4B0082" />
+      <stop offset="100%" stop-color="#8B00FF" />
+    </linearGradient>
+  </defs>
+  <circle
+    cx="25"
+    cy="25"
+    r="20"
+    fill="none"
+    stroke="url(#rainbow)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-dasharray="100"
+    stroke-dashoffset="75">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 25 25"
+      to="360 25 25"
+      dur="1s"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
